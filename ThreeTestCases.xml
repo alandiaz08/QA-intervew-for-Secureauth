@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Pruebas para Ebay">
+	<test name="Esta prueba contiene el caso EBAY01,EBAY04,EBAY05 de la planilla de los casos de pruebas">
+	<classes>
+		<class name="test.TestSignIn"/>
+		<class name="test.TestBuyProduct"/>
+		<class name="test.TestSellProduct"/>
+	</classes>
+	</test>
+</suite>
